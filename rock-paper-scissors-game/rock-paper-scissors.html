@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock Paper Scissors Game</title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>   
+        <div class="game-card">
+
+                
+            <h1>Rock Paper Scissors</h1>
+
+            <div class="game-div">
+                    <button class="game-button js-rock-button">
+                    <img class="game-icon" src="images/rock-emoji.png" alt="Rock">
+                </button>
+
+                    <button class="game-button js-paper-button">
+                        <img class="game-icon" src="images/paper-emoji.png" alt="Paper">
+                    </button>
+
+                    <button class="game-button js-scissors-button">
+                        <img class="game-icon" src="images/scissors-emoji.png" alt="Scissors">
+                    </button>
+            </div>
+
+            <div class="game-results">
+                <p class="js-result result"></p>
+
+                <p class="js-moves moves"></p>
+            
+                <p class="js-score score"></p>
+            </div>
+
+            <div class="reset-div">
+                <button class="reset-button" onclick="displayWarning();">Reset Score</button>
+
+                <button class="auto-play-button">Auto Play</button>
+
+                <p class="warningMessage"></p>
+            </div>
+        
+            <div>
+                <img src="sustaintable_clothing.jpg" alt="">
+            </div>
+
+        </div>
+
+        <script src="jscript.js"></script>
+
+    </body>
+</html> 
